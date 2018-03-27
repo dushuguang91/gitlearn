@@ -11,3 +11,6 @@ git test 005
 	git add  commit
 git test 006
 	git checkout -- readme.txt
+git test 007
+	version 7.0 pull push
+
