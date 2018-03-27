@@ -1,0 +1,46 @@
+1，张家港渠道整合代码地址
+	http://218.4.136.201:8081/r/serv/src.git  wangchong/123456
+
+2,git下载代码
+	建立资源存放目录后进入，右键 Git Bash Here
+	git 的基础配置
+		git config --global user.name "dushuguang"
+		git confgi --global user.email "dushuguang@csii.com.cn"
+	git 初始化
+		git init
+	git 克隆远程代码
+		git clone http://218.4.136.201:8081/r/serv/src.git  wangchong/123456
+
+3,git常用命令
+	git add readme.txt
+	git commit -m "Version1.0"
+	git status	修改readme.txt文件后，查看状态
+	git diff	查看修改内容
+	git add readme.txt / git status / git commit -m "version2.0" / git status 提交更改
+	git log --pretty=oneline	查看版本信息
+	git reset --hard commit_id	回退到某个版本
+	git reflog			查看命令历史
+	git add  工作区-->暂存区	git commit  暂存区-->master分支
+	git diff 工作区和暂存区比较	git diff --cached 暂存区和分支比较
+	git diff HEAD -- readme.txt	工作区和分支比较
+
+
+
+------------
+github账号  dushuguang@csii.com.cn	https://github.com/dushuguang91/gitlearn.git
+
+在github上新建 gitlearn资源库
+1，关联本地库和远程库
+	git remote add origin https://github.com/dushuguang91/gitlearn.git
+2，将本地库文件提交
+	git push -u origin master	
+   失败，提示远程库有新的文件，本地没有，先使用 pull命令。。
+   在github上新建的资源库，包含有readme.md，而本地没有，所以要先进行合并。		
+	git pull --rebase origin master	，将远程库的代码与本地合并，之后，本地库就有该文件了。	
+	git push origin master	本地库文件正常提交。
+
+
+
+
+
+
