@@ -9,3 +9,5 @@ git test 004
 	git diff HEAD -- readme.txt
 git test 005
 	git add  commit
+git test 006
+	git checkout -- readme.txt
