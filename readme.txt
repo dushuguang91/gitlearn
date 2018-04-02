@@ -5,3 +5,5 @@ git test 002
 	git commit
 git test 003
 	git log		git diff   git diff --cached
+git test 004
+	git diff HEAD -- readme.txt
