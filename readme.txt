@@ -3,3 +3,5 @@ git test 001
 git test 002
 	git add
 	git commit
+git test 003
+	git log		git diff   git diff --cached
