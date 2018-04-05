@@ -13,4 +13,5 @@ git test 006
 	git checkout -- readme.txt
 git test 007
 	version 7.0 pull push
-
+git test 008
+	version 8.0 other pc
