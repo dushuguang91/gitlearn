@@ -15,3 +15,10 @@ git test 007
 	version 7.0 pull push
 git test 008
 	version 8.0 other pc
+git test 009
+	git branch dev
+	git checkout dev
+
+
+
+
