@@ -21,8 +21,3 @@ git test 009
 git test 010
 	branch ceshi  conflict
 
-
-git test 010
-	git ceshi11 conflict
-
-
