@@ -39,8 +39,8 @@ github账号  dushuguang@csii.com.cn	https://github.com/dushuguang91/gitlearn.git
 	git pull --rebase origin master	，将远程库的代码与本地合并，之后，本地库就有该文件了。	
 	git push origin master	本地库文件正常提交。
 
-
-
-
+本地Git仓库和GitHub仓库之间的传输是通过SSH加密，创建ssh key,进入用户主目录 C:\Users\Duang
+	ssh-keygen -t rsa -C "dushuguang@csii.com.cn"
+GitHub，打开“Account settings”，“SSH Keys”页面， "Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
 
 
