@@ -18,6 +18,9 @@ git test 008
 git test 009
 	git branch dev
 	git checkout dev
+git test 010
+	branch ceshi  conflict
+
 
 git test 010
 	git ceshi11 conflict
